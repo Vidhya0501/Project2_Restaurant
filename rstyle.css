@@ -109,7 +109,7 @@ span.pickup{
 }
 
 .section5 a.btn-order-now{
-    width:280px;
+    width:250px;
     padding:10px;
     border-radius: 15px;
     background-color:var(--order-now-color);
