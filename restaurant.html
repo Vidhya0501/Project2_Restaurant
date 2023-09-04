@@ -18,13 +18,13 @@
         <nav class="navbar navbar-light bg-light px-5">
             <div class="logo navbar-brand text-center fw-bold">
             <h1>Hot Meals</h1></div>
-            <div class="location d-flex mx-auto text-center justify-content-around">
+            <div class="location d-flex mx-auto text-center justify-content-around flex-wrap">
                 <p class="fw-bold">Deliver to:</p>
                 <p class="current-location"><img src="./restaurant_images/map-marker_orange_icon.svg" alt="location_orange_icon"/>
                 Current Location</p>
                 <p class="fw-bold">Ashok Nagar, Chennai-600013</p>
             </div>
-            <div class="search d-flex justify-content-around">
+            <div class="search d-flex justify-content-around flex-wrap">
                 <button type="submit" class="btn fw-bold ">
                 <img src="./restaurant_images/Search_orange_icon.svg" alt="search_orange_icon"/>
                 Search Food</button>
@@ -35,7 +35,7 @@
             </div>
         </nav>
         
-            <div class="head_sec_content bg-warning d-flex gap-10 w-100">
+            <div class="head_sec_content bg-warning d-flex gap-10 w-auto flex-wrap">
                 <div class="head_sec_content_left mx-auto justify-content-center my-auto align-items-center" >
                         <div class="tagline">
                             <p>Look at your fav Meals</p>
@@ -44,7 +44,7 @@
                             <p>Within a few clicks, find meals that are accessible near you</p>
                         </div>
                         <div class="card bg-white">
-                            <div class="card-header d-flex ">
+                            <div class="card-header d-flex flex-wrap ">
                                 <span class="btn delivery fw-bold w-10 px-2 py-1"><img src="./restaurant_images/bike_Icon.svg" alt="bike_icon">
                                         Delivery</span>
                                 <span class="btn fw-bold pickup ms-5">
@@ -71,7 +71,7 @@
 
     <!-- section1 -->
     <section class="section1 mx-2 my-5">
-        <div class="tiffin_cards d-flex justify-content-around">
+        <div class="tiffin_cards d-flex justify-content-around flex-wrap">
             <!-- tiffin_card 1 -->
             <div class="vada_card ">
                 <div class="vada_img w-5 h-5 mb-4">
@@ -120,9 +120,9 @@
      <section class="section2 mx-5 my-5">
         <div class="performance">
             <h4 class="text-center">How does it work</h4>
-            <div class="performance_data d-flex shadow-sm p-4 mb-4  justify-content-evenly">
+            <div class="performance_data d-flex shadow-sm p-4 mb-4  justify-content-evenly flex-wrap">
                 <!-- discount -->
-                <div class="discount d-flex my-auto align-iems-center">
+                <div class="discount d-flex my-auto align-items-center flex-wrap">
                     <img src="./restaurant_images/discount_Icon.svg" alt="discount_Icon"/>
                     <h5 class="text-wrap" style="width: 6rem;">Daily
                         Discounts</h5>
@@ -133,7 +133,7 @@
                 </div>
 
                 <!-- Tracing -->
-                <div class="tracing d-flex">
+                <div class="tracing d-flex flex-wrap">
                     <img src="./restaurant_images/live_tracing_Icon.svg" alt="live_tracing_Icon"/>
                     <h5 class="text-wrap" style="width: 6rem;">Live
                         Tracing</h5>
@@ -143,7 +143,7 @@
                     <img src="./restaurant_images/HR-line.svg" alt="hr-line"/>
                 </div>
                 <!-- Delivery -->
-                <div class="delivery d-flex">
+                <div class="delivery d-flex flex-wrap">
                     <img src="./restaurant_images/Qucik_delivery_Icon.svg" alt="Qucik_delivery_Icon"/>
                     <h5 class="text-wrap" style="width: 6rem;">Quick
                         Delivery</h5>
@@ -157,7 +157,7 @@
             <div class="search_food_head text-left fw-bolder px-5 py-5">
                 <h2>Search by Food</h2>
             </div>
-            <div class="search_food_cards d-flex justify-content-around px-5 pb-5">
+            <div class="search_food_cards d-flex justify-content-around px-5 pb-5 flex-wrap">
                 <!-- dosa -->
                 <div class="dosa">
                     <div class="dosa_img">
@@ -211,7 +211,7 @@
     
     <!-- section4 -->
     <section class="section4 mx-5 my-10">
-        <div class="best_deals d-flex justify-content-between my-5">
+        <div class="best_deals d-flex justify-content-between my-5 flex-wrap">
             <div class="best_deals_left w-30 pt-5 mt-5 ms-5 ps-5">
                 <div class="best_deals_head fs-1">
                     <h2>Best deals <span class="text-warning ">Crispy <br> Diffen</span></h2>
@@ -230,7 +230,7 @@
      <!-- section5 -->
     <section class="section5 mx-5 my-5">
             <h2 class="text-center fw-bold">Popular items</h2>
-            <div class="popular_item_cards d-flex flex-wrap justify-content-around mx-5 my-5 px-5">
+            <div class="popular_item_cards d-flex flex-wrap justify-content-around mx-5 my-5 px-5 gap-1">
             <!-- popular_item_card 1_murukku -->
             <div class=" murukku_card" style="width: 15rem;">
                 <div class="murukku_img">
@@ -367,12 +367,12 @@
     <!-- footer -->
     <footer class=" mx-5 my-5">
         <div class="card footer bg-dark text-white">
-        <div class="card-header footer_head">
+        <div class="card-header footer_head py-5">
             <img src="./restaurant_images/HR-line-h.svg" alt="HR-line-h"/>
         </div>
         
-        <div class="card-body footer_content d-flex justify-content-between">
-                <div class="footer_left d-flex p-5">
+        <div class="card-body footer_content d-flex justify-content-around flex-wrap">
+                <div class="footer_left d-flex ps-1 py-5 gap-5">
                     <!-- company -->
                     <div class="company">
                         <h6 class="p-5">Company</h6>
@@ -413,17 +413,17 @@
                     <div class="mailbox d-flex py-5" >
                         <form class="form d-flex justify-content-between">
                             <img src="./restaurant_images/envelope_icon.svg" alt="envelope_icon" class="envelope position-absolute p-4 ">
-                            <input type="email" class="form-control w-100 px-2" id="mail" placeholder="Enter Your email"/>
+                            <input type="email" class="form-control w-150 px-2" id="mail" placeholder="Enter Your email"/>
                             <a href="#" class="btn subscribe text-center text-white fw-bold  text-center">Subscribe</a>
                         </form>
                     </div>
                 </div>
         </div>
         <img src="./restaurant_images/HR-line-h.svg" alt="HR-line-h"/>
-        <div class="card-footer d-flex">
-            <p>All rights Reserved copyright
+        <!-- <div class="card-footer d-flex"> -->
+            <p class="mx-5 mb-5 mt-2">All rights Reserved copyright
             <img src="./restaurant_images/copyright_symbol.svg" alt="copyright_symbol"/></p>
-        </div>
+        <!-- </div> -->
     </div>
     </footer>
 </body>
